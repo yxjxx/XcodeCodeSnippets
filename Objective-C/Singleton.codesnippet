@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>+ (&lt;#instancetype#&gt;)shared&lt;#name#&gt;
 {
-    static &lt;#instancetype#&gt; *sharedInstance = nil;
+    static &lt;#instancetype#&gt; *sharedInstance;
     static dispatch_once_t onceToken;
     dispatch_once(&amp;onceToken, ^{
         sharedInstance = [[self alloc] init];
