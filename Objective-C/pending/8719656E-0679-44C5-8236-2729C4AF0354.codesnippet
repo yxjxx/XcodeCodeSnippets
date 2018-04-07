@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mytab</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (&lt;#Type#&gt; *)&lt;#name#&gt;{
+    if (_&lt;#name#&gt; == nil) {
+        _&lt;#name#&gt; = [[&lt;#Type#&gt; alloc] init];
+        _&lt;#name#&gt;.tabBarItem.title = @"&lt;#tabbar title#&gt;";
+    }
+    return _&lt;#name#&gt;;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8719656E-0679-44C5-8236-2729C4AF0354</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>tabbar lazy init</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

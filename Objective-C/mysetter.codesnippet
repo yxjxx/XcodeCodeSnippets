@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mysetter</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)set&lt;#Name#&gt;:(&lt;#className#&gt; *)&lt;#Name#&gt;{
+    _&lt;#Name#&gt; = &lt;#Name#&gt;;
+   
+    [self &lt;#funcName#&gt;:&lt;#Name#&gt;];
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0B31ADB3-D12C-4D9E-B3EA-56CD2DD38B8A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>setter 方法</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
